@@ -12,19 +12,11 @@ the 20-year bonds pay 4.32%, with each compounding annually.
 Note that Elon's capital will be $33B.
 """
 
-principal = 33_000_000_000  # Elon's capital in USD
-
-rate_10_year = 0.0396
-rate_20_year = 0.0432
-
-# Compounding interest formula: A = P * (1 + r/n)^(n*t)
+### all your code below ###
 
 
 # final answer for 10-year
-ten_year_final = principal * (1 + rate_10_year) ** 10
+ten_year_final = None
 
 # final answer for 20-year
-twenty_year_final = principal * (1 + rate_20_year) ** 20
-
-print("Elon's 10-year investment is $", ten_year_final)
-print("Elon's 20-year investment is $", twenty_year_final)
+twenty_year_final = None
